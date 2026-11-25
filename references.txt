@@ -1,0 +1,1 @@
+Pretrained (ConvNext / resNet ) models on  GZ Evo dataset (820k images of galaxy annotated by volunteers) : https://zoobot.readthedocs.io/en/latest/pretrained_models.html
