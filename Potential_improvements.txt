@@ -2,12 +2,15 @@ I suggest we list here the improvements we would like to test in order to identi
 
 architecture solutions
 - ResNet
-- Changer tête de classification 
+- (peu de chances que ce soit mieux) utiliser des backbones plus généraux (dans PyTorch) pour utiliser d'autres architectures
+- Changer tête de classification (GAP ou FC à après le backbone)
 
 training solutions
 - transfer learning (backbone only)
 - transfer learning puis fine tunning (modèle entier)
--  scheduled learning rate 
+- scheduled learning rate 
+- empêcher l'overfit: weight decay, early stopping, data augmentation, dropout
+
 
 data solutions
 - augmentation
