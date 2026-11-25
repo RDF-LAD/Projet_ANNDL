@@ -1,0 +1,15 @@
+I suggest we list here the improvements we would like to test in order to identify which are the interesting ones and finally try to combine them.
+
+architecture solutions
+- ResNet
+- Changer tête de classification 
+
+training solutions
+- transfer learning (backbone only)
+- transfer learning puis fine tunning (modèle entier)
+-  scheduled learning rate 
+
+data solutions
+- augmentation
+- mixup augmentation 
+- self ensembling
