@@ -1,4 +1,4 @@
 nom_model,model_source,improvements,f1_score,remarks
 res_net0,res_net_pretrained,None,"0,7769", base parameters of main branch
 res_net_balanced,res_net_pretrained,data augmentation and balanced training dataset by repetitions and fine tunning, "0.8140", 7epochs tete + 34 epochs fine tunning
-res_net_balanced_2,res_net1,augmentation (blur,crop) no aliens, "0.8236",16epoch tete + 53epochs fine tunning
+res_net_balanced_2,res_net1,augmentation (blur crop) no aliens, "0.8236",16epoch tete + 53epochs fine tunning
