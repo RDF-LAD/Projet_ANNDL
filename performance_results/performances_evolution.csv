@@ -6,4 +6,4 @@ resNet_20epochs,res_net_pretrained,data augmentation + dropout (0.15) + early st
 resnet_30epochs,res_net_pretrained,data augmentation+early stopping AdamW with weight decay a bit better without wieght decay, "0.8243", early stopping stops at epoch 7
 resnet_adamw_20epochs,res_net_pretrained,"AdamW; learning rate=0.002; weight decay=0.01",0.8577,"20 epochs requested"
 resnet_aug, res_net_pretrained, augmentations + dropout (0.15) + scheduler, "0.8480", j'ai retiré l'équilibre des classes qui semble pas avoir grand impact
-resnet_aug1, resnet_aug, augmentations sans blur, "0.8459', le blur est peut etre une augmentation trop forte
+resnet_aug1, resnet_aug, augmentations sans blur, "0.8459", le blur est peut etre une augmentation trop forte
