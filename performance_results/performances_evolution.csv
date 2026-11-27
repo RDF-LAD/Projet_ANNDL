@@ -4,3 +4,4 @@ res_net_balanced,res_net_pretrained,data augmentation and balanced training data
 res_net_balanced_2,res_net_balanced,augmentation (blur crop) no aliens, "0.8236",16epoch tete + 53epochs fine tunning
 resNet_20epochs,res_net_pretrained,data augmentation + dropout (0.15) + early stopping, "0.8007", 20 epochs tete (early stopping didn't stop anything so it could probably be better with more epochs)
 resnet_30epochs,res_net_pretrained,data augmentation+early stopping AdamW with weight decay a bit better without wieght decay, "0.8243", early stopping stops at epoch 7
+resnet_adamw_20epochs,res_net_pretrained; AdamW; learning rate=0.002; weight decay=0.01; dropout_rate=0.1,0.8577,20 epochs requested
