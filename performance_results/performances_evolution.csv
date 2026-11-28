@@ -9,3 +9,4 @@ resnet_aug, res_net_pretrained, augmentations + dropout (0.15) + scheduler, "0.8
 resnet_aug1, resnet_aug, augmentations sans blur, "0.8459", le blur est peut etre une augmentation trop forte
 resnet_aug2, resnet_aug1, augmentation avec reflexion lors des rotations, "0.8524", au lieu de rendre noir une partie l'image on copie les pixels de manière symétrique
 resnet_cutmix, resnet_aug1, regularisation cutmix + smooth label, "0.8538", meme modele que resnet_aug1 mais cutmix (0.5 1)en plus et label smoothing (0.1)
+convenext_cutmix, resnet_cutmix, change resnet by cinvenext, "08638", tous les memes params mais avec convnext (en TTA il est a 8604 je vais le submit aussi)
